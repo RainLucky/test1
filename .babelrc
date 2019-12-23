@@ -1,0 +1,14 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "usage"
+            }
+        ]
+    ],
+    "plugins": ["@babel/plugin-transform-runtime", "transform-remove-strict-mode"],
+    "ignore": [
+        "./src/js/change.js"
+    ]
+}
